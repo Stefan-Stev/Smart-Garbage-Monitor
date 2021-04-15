@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GaSM</title>
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <link rel="stylesheet" href="Scholarly.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../">
+                <img src=../Images/LogoHelp.png alt="Logo unavailable" height="70" width="80"></a>
+        </div>
+        <div class="title">
+            <span>Scholarly Report - GaSM</span>
+        </div>
+        <div class="back-button">
+            <a href="../" class="MPbutton">BACK TO MAIN PAGE</a>
+        </div>
+    </nav>
+    <main>
+        <div role="contentinfo">
+            <dl>
+                <dt>Licenta</dt>
+                <dd>
+                    <a href="mit.txt">MIT License</a>
+                </dd>
+            </dl>
+        </div>
+
+        <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+            <h2>Descriere:</h2>
+            <p>
+                GaSM (Garbage Smart Monitor) este un site informativ cu privire asupra gunoiului colectat si reciclat din orasul Iasi, aceste cuprinde atat o pagina de statistici cat si o pagina pentru fiecare cartieri. GaSM ofera posibilitatea, unui cetatean, de a furniza
+                comentarii asupra starii unui cartier dar si de initializa o plangere.
+            </p>
+            <p>GaSM decongestioneaza gunoiul atat la nivel de cartier cat si pentru fiecare point selectat pe mapa, verifica fiecare plangere aplicata si selecteaza si sorteaza comentariile postate de catre utilizatori.
+            </p>
+        </section>
+
+        <section>
+            <h2>Manual de utilizare:</h2>
+            <p>
+                GaSM (Garbage Smart Monitor) contine in total 8 pagini web dintre care doar 7 sunt accesibile unui utilizator obisnuit, iar 1 pagina pentru contul de admin (contul salubris). Fiecare pagina contine un nav bar care contine numele paginii logo(prin care
+                se revine la pagina principala) si un buton pentru login/pagina principala:
+            </p>
+            <h6>PAGINA PRINCIPALA:</h6>
+            <p>Aceasta contine un meniu prin care se face legatura cu paginile Get Started, Learn how to do it si Statistici, dar si un buton in partea din dreapta jos al paginii ce conduce catre raportul scholarly. Pentru a accesa una din paginile dorite,
+                atat din navbar, cat si din meniu se acceseaza printr-un singur click pe optiunea dorita.</p>
+            <h6>LOGIN PAGE:</h6>
+            <p>Aceasta contine un formular in care se introduce username-ul si parola contului de admin(in cazul nostru salubris), in caz de datele sunt introduse gresit sau contul este inexistent se va afisa un alert. Dupa ce se completeaza formularul se
+                va apasa Log in pentru submit.
+            </p>
+            <h6>SALUBRIS ACCOUNT PAGE:</h6>
+            <p>Aceasta pagina permite utilizatorului se adauge, stearga, verifice, modifice date din baza de date si comentarii sau reclamatii postate de catre utilizatorii neautorizati.</p>
+            <h6>GET STARTED:</h6>
+            <p>Pagina contine o lista cu cartierele din Iasi atat nume cat si poza pentru fiecare cartier. Click pe poza cartierului pentru a accesa pagina acestuia.</p>
+            <h6>CARTIER:</h6>
+            <p>Pagina contine statistici pentru cartierul respectiv cat si locul in clasament pentru cel mai curat cartier, acesta dispune de o mapa prin care se poate orienta locatia gunoiului din cartierul respectiv. Cu ajutorul formuralui din partea de
+                jos a paginii se poate posta un comentariu sau opinie despre acel cartier.</p>
+            <h6>LEARN HOW TO DO IT PAGE:</h6>
+            <p>Pagina contine butoane pentru fiecare tip de gunoi, accesand unul din acestea se va afisa informatii generale despre acel tip de gunoi cat si informatii despre cum se recicleaza si de ce este bine sa se recicleze.</p>
+            <h6>STATISTICS PAGE:</h6>
+            <p>Pagina contine un grafic interactiv si butoane specifice pentru hartie,plastic sau organic dar si o lista de butoane pentru fiecare cartier sau luna. Pe langa butoanele mentionate pagina dispune de 3 tipuri de export: XML,CSV,PDF ce contin
+                tabele de date sau graficul selectat.</p>
+            <h6>SCHOLARLY:</h6>
+            <p>Raportul despre Aplicatia Web ce contine o mica descriere a proiectului realizat, manual de utilizare dar si informatii despre structura aplicatiei, diagrama acesteia, creatori aplicatiei si Linkurile de referinta.</p>
+        </section>
+
+        <section id="structure">
+            <h2>Structura:</h2>
+            <p>
+                Tehnologiile folosite in crearea site-ului:
+            </p>
+            <section id="Root">
+                <h3>HTML</h3>
+                <p>
+                    HTML este o formă de marcare orientată către prezentarea documentelor text pe o singura pagină, utilizând un software de redare specializat, numit agent utilizator HTML, cel mai bun exemplu de astfel de software fiind browserul web. HTML furnizează mijloacele
+                    prin care conținutul unui document poate fi adnotat cu diverse tipuri de metadate și indicații de redare. Indicațiile de redare pot varia de la decorațiuni minore ale textului, cum ar fi specificarea faptului că un anumit cuvânt trebuie
+                    subliniat sau că o imagine trebuie introdusă, până la scripturi sofisticate, hărți de imagini și formulare.
+                </p>
+            </section>
+            <section id="article">
+
+                <h3>CSS</h3>
+                <p>
+                    CSS (Cascading Style Sheets) este un standard pentru formatarea elementelor unui document HTML. Stilurile se pot atașa elementelor HTML prin intermediul unor fișiere externe sau în cadrul documentului, prin elementul &ltstyle&gt și/sau atributul style.
+                    CSS se poate utiliza și pentru formatarea elementelor XHTML, XML și SVGL.
+                </p>
+            </section>
+            <section id="references">
+
+                <h3>JavaScript</h3>
+                <p>
+                    JavaScript (JS) este un limbaj de programare orientat obiect bazat pe conceptul prototipurilor. Este folosit mai ales pentru introducerea unor funcționalități în paginile web, codul JavaScript din aceste pagini fiind rulat de către browser.
+                </p>
+
+            </section>
+            <section id="inline">
+                <h3>Baze de Date</h3>
+                <p>
+                    <b>PostgreSQL</b> este un sistem de baze de date relationale. Este disponibil gratuit sub o licentă open source de tip BSD. PostgreSQL nu este controlat de nici o companie, își bazează dezvoltarea pe o comunitate răspândită la nivel
+                    global, precum și câteva companii dezvoltatoare. PostgreSQL permite folosirea limbajelor procedurale pentru a executa blocuri de cod direct în serverul de baze de date. Se pot folosi pentru a crea funcții definite de utilizator (subrutine,
+                    trigerre, agregate și funcții fereastră) sau pentru a crea blocuri ad hoc "DO".
+                </p>
+            </section>
+            <section>
+
+                <h3>JSPDF</h3>
+                <p>
+                    <b>JSPDF</b> este o biblioteca open source pentru exportarea de fisiere PDF. Aplicatia WEB foloseste JSPDF pentru a exporta graficul cu statisticile totale.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h3>PHP</h3>
+                <p>
+                    PHP (acronim recursiv pentru PHP: Hypertext Preprocessor) este un limbaj de scripting de uz general, cu cod-sursă deschis (open source), utilizat pe scară largă, și care este potrivit în special pentru dezvoltarea aplicațiilor web și poate fi integrat
+                    în HTML.
+                </p>
+
+            </section>
+            <section>
+
+                <h3>Heroku</h3>
+                <p>
+                    Heroku este o platforma container-based care permite developerilor sa implementeze, sa dezvolte, sa ruleze si sa opereze aplicatii in totalitate pe cloud.
+                </p>
+
+            </section>
+            <section>
+
+                <h3>Chart.JS</h3>
+                <p>
+                    Chart.js este o bibliotecă JavaScript gratuită cu sursă deschisă pentru vizualizarea datelor , care acceptă 8 tipuri de diagrame : bara , linie , zonă , plăcintă ( gogoașă ), bulă , radar , polar și scatter . Creat de la Londra pe bază de web dezvoltator
+                    Nick Downie în 2013, acum este menținută de comunitate și este a doua dintre cele mai cunoscute JS bibliotecă diagrame pe GitHub de numărul de stele după D3.js , considerat în mod semnificativ mai ușor de utilizat , deși mai puținpersonalizabile
+                    decât cele din urmă. Chart.js este redat în panza HTML5 și este acoperit pe scară largă ca una dintre cele mai bune biblioteci de vizualizare a datelor. Este disponibil sub licența MIT .
+                </p>
+
+            </section>
+
+        </section>
+
+        <section id="semantics">
+
+            <h2>Functionalitati suplimentare:</h2>
+
+            <section id="person-org">
+
+                <h3>Google Maps API</h3>
+
+                <p>The Maps JavaScript API vă permite să personalizați hărți cu conținut și imagini proprii pentru afișare pe pagini web și dispozitive mobile. The Maps JavaScript API include patru tipuri de hărți de bază (foaie de parcurs, satelit, hibrid
+                    și teren) pe care le puteți modifica utilizând straturi și stiluri, controale și evenimente și diverse servicii și biblioteci.
+                </p>
+
+            </section>
+        </section>
+
+        <section id="diagram">
+
+            <h2>Diagrama aplicatiei:</h2>
+
+            <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-06-10T17:49:23.099Z\&quot; agent=\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36\&quot; etag=\&quot;_m7C5QUK5wBxODhNH-K2\&quot; version=\&quot;12.8.5\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;bsgSelkAOTHoZYXI4-9F\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+
+            <script type="text/javascript" src="https://app.diagrams.net/js/viewer.min.js"></script>
+        </section>
+
+        <section id="scholarly-article">
+
+            <h2>Autori:</h2>
+            <p>
+                <ul>
+                    <li>Raileanu Andrei</li>
+                    <li>Iacob Stefan</li>
+                    <li>Miler Robert Stefan</li>
+                </ul>
+            </p>
+            <p class="issue">
+                Link catre repository-ul de Github:
+                <a href=https://git.heroku.com/smart-garbage-monitor.git>GaSM</a>
+            </p>
+
+        </section>
+
+        <section id="ref">
+            <h2> References: </h2>
+
+            <p class="issue">
+                <a href=https://developers.google.com/maps/documentation/javascript/tutorial/> Google Maps Javascript API</a>
+            </p>
+
+            <p class="issue">
+                <a href=https://c4model.com> C4 modeling</a>
+            </p>
+
+            <p class="issue">
+                <a href=https://www.chartjs.org/docs/latest/>Documentatie ChartJS</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.codespeedy.com/change-background-color-on-mouse-hover-in-javascript/>Change Background Color on Mouse Hover in JavaScript</a>
+            </p>
+            <p class="issue">
+                <a href=https://profs.info.uaic.ro/~busaco/>Pagina Domnului Profesor de curs</a>
+            </p>
+            <p class="issue">
+                <a href=https://gist.github.com/msdzero/d663077bf3fa9d35d133b5dc49942373>Exemple CHARJS,AJAX</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.w3schools.com/howto/howto_js_collapsible.asp>Tutoriale JS</a>
+            </p>
+            <p class="issue">
+                <a href=https://divtable.com/table-styler/>Styler tabel</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.w3schools.com/css/css_table.asp>Table css example</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.w3schools.com/xml/ajax_xmlhttprequest_response.asp>Example ajax request</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.encodedna.com/javascript/populate-select-dropdown-list-with-json-data-using-javascript.htm>Example dropdown list</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.w3schools.com/php/php_ajax_php.asp>Example php and ajax</a>
+            </p>
+            <p class="issue">
+                <a href=https://iampava.com/>Pagina Domnului Profesor de laborator</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.bestcssbuttongenerator.com/>CSS BUTTONS EXAMPLE</a>
+            </p>
+            <p class="issue">
+                <a href=https://www.youtube.com/watch?v=Xi1v931uBI0&ab_channel=Robert-StefanMilerA4>Video Demonstrativ Functionare Aplicatie</a>
+            </p>
+            <p class="issue">
+                <a href=https://w3c.github.io/scholarly-html/#semantics>CSS-ul Template Scholarly</a>
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
